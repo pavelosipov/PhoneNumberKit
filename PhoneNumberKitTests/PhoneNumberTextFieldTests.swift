@@ -8,7 +8,7 @@
 
 #if os(iOS)
 
-@testable import PhoneNumberKit
+@testable import PhoneNumberToolbox
 import UIKit
 import XCTest
 

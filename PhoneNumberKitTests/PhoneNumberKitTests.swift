@@ -6,10 +6,10 @@
 //  Copyright © 2021 Roy Marmelstein. All rights reserved.
 //
 
-@testable import PhoneNumberKit
+@testable import PhoneNumberToolbox
 import XCTest
 
-import PhoneNumberKit
+import PhoneNumberToolbox
 
 class PhoneNumberKitTests: XCTestCase {
     let phoneNumberKit = PhoneNumberKit()

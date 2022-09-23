@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "1320"
+   LastUpgradeVersion = "1340"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
+               BlueprintIdentifier = "C6DF6C901D1B120400259F4B"
                BuildableName = "PhoneNumberKit.framework"
-               BlueprintName = "PhoneNumberKit-tvOS"
-               ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
+               BlueprintName = "PhoneNumberToolbox-watchOS"
+               ReferencedContainer = "container:PhoneNumberToolbox.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -40,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
-            BuildableName = "PhoneNumberKit.framework"
-            BlueprintName = "PhoneNumberKit-tvOS"
-            ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -59,10 +50,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "C6DF6CCB1D1B18B000259F4B"
+            BlueprintIdentifier = "C6DF6C901D1B120400259F4B"
             BuildableName = "PhoneNumberKit.framework"
-            BlueprintName = "PhoneNumberKit-tvOS"
-            ReferencedContainer = "container:PhoneNumberKit.xcodeproj">
+            BlueprintName = "PhoneNumberToolbox-watchOS"
+            ReferencedContainer = "container:PhoneNumberToolbox.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

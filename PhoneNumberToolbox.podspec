@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint PhoneNumberKit.podspec' to ensure this is a
+# Be sure to run `pod lib lint PhoneNumberToolbox.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,8 +7,8 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = "PhoneNumberKit"
-  s.version          = "3.4.9"
+  s.name             = "PhoneNumberToolbox"
+  s.version          = "3.4.10"
   s.summary          = "Swift framework for working with phone numbers"
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Roy Marmelstein" => "marmelroy@gmail.com" }
-  s.source           = { :git => "https://github.com/marmelroy/PhoneNumberKit.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/pavelosipov/PhoneNumberToolbox.git", :tag => s.version.to_s }
   s.social_media_url   = "http://twitter.com/marmelroy"
 
 
@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
   s.swift_version = '5.0'
 
-  s.subspec 'PhoneNumberKitCore' do |core|
+  s.subspec 'PhoneNumberToolboxCore' do |core|
     core.ios.deployment_target = '9.0'
     core.osx.deployment_target = '10.10'
     core.tvos.deployment_target = '10.0'
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit' do |ui|
-    ui.dependency 'PhoneNumberKit/PhoneNumberKitCore'
+    ui.dependency 'PhoneNumberKit/PhoneNumberToolboxCore'
     ui.ios.deployment_target = '9.0'
     ui.source_files = 'PhoneNumberKit/UI/'
   end

@@ -18,7 +18,7 @@
 		3417BD6B2210AC4900477EE7 /* MetadataParsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3417BD6A2210AC4900477EE7 /* MetadataParsing.swift */; };
 		3420CF5E1BE8959F00FAE34F /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3420CF5D1BE8959F00FAE34F /* Formatter.swift */; };
 		3422D9BA1BE6A2D500867D02 /* ParseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3422D9B91BE6A2D500867D02 /* ParseManager.swift */; };
-		3424186F1BB6E5A000EE70E7 /* PhoneNumberKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342418641BB6E5A000EE70E7 /* PhoneNumberKit.framework */; };
+		3424186F1BB6E5A000EE70E7 /* PhoneNumberToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 342418641BB6E5A000EE70E7 /* PhoneNumberToolbox.framework */; };
 		342418741BB6E5A000EE70E7 /* PhoneNumberKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342418731BB6E5A000EE70E7 /* PhoneNumberKitTests.swift */; };
 		342418801BB705B500EE70E7 /* PhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3424187F1BB705B500EE70E7 /* PhoneNumber.swift */; };
 		342418821BB70F5200EE70E7 /* PhoneNumberParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342418811BB70F5200EE70E7 /* PhoneNumberParser.swift */; };
@@ -110,9 +110,9 @@
 		3417BD6A2210AC4900477EE7 /* MetadataParsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetadataParsing.swift; sourceTree = "<group>"; };
 		3420CF5D1BE8959F00FAE34F /* Formatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
 		3422D9B91BE6A2D500867D02 /* ParseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParseManager.swift; sourceTree = "<group>"; };
-		342418641BB6E5A000EE70E7 /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		342418641BB6E5A000EE70E7 /* PhoneNumberToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		342418691BB6E5A000EE70E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3424186E1BB6E5A000EE70E7 /* PhoneNumberKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneNumberKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3424186E1BB6E5A000EE70E7 /* PhoneNumberToolboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhoneNumberToolboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		342418731BB6E5A000EE70E7 /* PhoneNumberKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberKitTests.swift; sourceTree = "<group>"; };
 		342418751BB6E5A000EE70E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3424187F1BB705B500EE70E7 /* PhoneNumber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumber.swift; sourceTree = "<group>"; };
@@ -132,10 +132,10 @@
 		34F26FBD2517DCB700B6AF4D /* Bundle+Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle+Resources.swift"; sourceTree = "<group>"; };
 		5D14267C238F5842002DD197 /* CountryCodePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountryCodePickerViewController.swift; path = UI/CountryCodePickerViewController.swift; sourceTree = "<group>"; };
 		A863BC9923801ABC00088460 /* PhoneNumberMetadata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = PhoneNumberMetadata.json; path = Resources/PhoneNumberMetadata.json; sourceTree = "<group>"; };
-		C6DF6C4B1D1B09CF00259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6DF6C911D1B120400259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DF6C4B1D1B09CF00259F4B /* PhoneNumberToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DF6C911D1B120400259F4B /* PhoneNumberToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6DF6CA71D1B145300259F4B /* PhoneNumberKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneNumberKit.h; sourceTree = "<group>"; };
-		C6DF6CCC1D1B18B000259F4B /* PhoneNumberKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6DF6CCC1D1B18B000259F4B /* PhoneNumberToolbox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PhoneNumberToolbox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D81F812348025700B75AB7 /* PhoneNumberTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberTextFieldTests.swift; sourceTree = "<group>"; };
 		D51A60A8274416050021EE7E /* PhoneNumber+Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneNumber+Codable.swift"; sourceTree = "<group>"; };
 		D51A60AD27442EF50021EE7E /* PhoneNumber+CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PhoneNumber+CodableTests.swift"; sourceTree = "<group>"; };
@@ -155,7 +155,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3424186F1BB6E5A000EE70E7 /* PhoneNumberKit.framework in Frameworks */,
+				3424186F1BB6E5A000EE70E7 /* PhoneNumberToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,11 +214,11 @@
 		342418651BB6E5A000EE70E7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				342418641BB6E5A000EE70E7 /* PhoneNumberKit.framework */,
-				3424186E1BB6E5A000EE70E7 /* PhoneNumberKitTests.xctest */,
-				C6DF6C4B1D1B09CF00259F4B /* PhoneNumberKit.framework */,
-				C6DF6C911D1B120400259F4B /* PhoneNumberKit.framework */,
-				C6DF6CCC1D1B18B000259F4B /* PhoneNumberKit.framework */,
+				342418641BB6E5A000EE70E7 /* PhoneNumberToolbox.framework */,
+				3424186E1BB6E5A000EE70E7 /* PhoneNumberToolboxTests.xctest */,
+				C6DF6C4B1D1B09CF00259F4B /* PhoneNumberToolbox.framework */,
+				C6DF6C911D1B120400259F4B /* PhoneNumberToolbox.framework */,
+				C6DF6CCC1D1B18B000259F4B /* PhoneNumberToolbox.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,9 +309,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		342418631BB6E5A000EE70E7 /* PhoneNumberKit */ = {
+		342418631BB6E5A000EE70E7 /* PhoneNumberToolbox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 342418781BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */;
+			buildConfigurationList = 342418781BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox" */;
 			buildPhases = (
 				3424185F1BB6E5A000EE70E7 /* Sources */,
 				342418601BB6E5A000EE70E7 /* Frameworks */,
@@ -322,14 +322,14 @@
 			);
 			dependencies = (
 			);
-			name = PhoneNumberKit;
+			name = PhoneNumberToolbox;
 			productName = PhoneNumberKit;
-			productReference = 342418641BB6E5A000EE70E7 /* PhoneNumberKit.framework */;
+			productReference = 342418641BB6E5A000EE70E7 /* PhoneNumberToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3424186D1BB6E5A000EE70E7 /* PhoneNumberKitTests */ = {
+		3424186D1BB6E5A000EE70E7 /* PhoneNumberToolboxTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3424187B1BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberKitTests" */;
+			buildConfigurationList = 3424187B1BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberToolboxTests" */;
 			buildPhases = (
 				3424186A1BB6E5A000EE70E7 /* Sources */,
 				3424186B1BB6E5A000EE70E7 /* Frameworks */,
@@ -340,14 +340,14 @@
 			dependencies = (
 				342418711BB6E5A000EE70E7 /* PBXTargetDependency */,
 			);
-			name = PhoneNumberKitTests;
+			name = PhoneNumberToolboxTests;
 			productName = PhoneNumberKitTests;
-			productReference = 3424186E1BB6E5A000EE70E7 /* PhoneNumberKitTests.xctest */;
+			productReference = 3424186E1BB6E5A000EE70E7 /* PhoneNumberToolboxTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C6DF6C4A1D1B09CF00259F4B /* PhoneNumberKit-macOS */ = {
+		C6DF6C4A1D1B09CF00259F4B /* PhoneNumberToolbox-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6DF6C521D1B09CF00259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-macOS" */;
+			buildConfigurationList = C6DF6C521D1B09CF00259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-macOS" */;
 			buildPhases = (
 				C6DF6C461D1B09CF00259F4B /* Sources */,
 				C6DF6C471D1B09CF00259F4B /* Frameworks */,
@@ -358,14 +358,14 @@
 			);
 			dependencies = (
 			);
-			name = "PhoneNumberKit-macOS";
+			name = "PhoneNumberToolbox-macOS";
 			productName = "PhoneNumberKit-macOS";
-			productReference = C6DF6C4B1D1B09CF00259F4B /* PhoneNumberKit.framework */;
+			productReference = C6DF6C4B1D1B09CF00259F4B /* PhoneNumberToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C6DF6C901D1B120400259F4B /* PhoneNumberKit-watchOS */ = {
+		C6DF6C901D1B120400259F4B /* PhoneNumberToolbox-watchOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6DF6C981D1B120400259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-watchOS" */;
+			buildConfigurationList = C6DF6C981D1B120400259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-watchOS" */;
 			buildPhases = (
 				C6DF6C8C1D1B120400259F4B /* Sources */,
 				C6DF6C8D1D1B120400259F4B /* Frameworks */,
@@ -376,14 +376,14 @@
 			);
 			dependencies = (
 			);
-			name = "PhoneNumberKit-watchOS";
+			name = "PhoneNumberToolbox-watchOS";
 			productName = "PhoneNumberKit-watchOS";
-			productReference = C6DF6C911D1B120400259F4B /* PhoneNumberKit.framework */;
+			productReference = C6DF6C911D1B120400259F4B /* PhoneNumberToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C6DF6CCB1D1B18B000259F4B /* PhoneNumberKit-tvOS */ = {
+		C6DF6CCB1D1B18B000259F4B /* PhoneNumberToolbox-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C6DF6CD11D1B18B000259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-tvOS" */;
+			buildConfigurationList = C6DF6CD11D1B18B000259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-tvOS" */;
 			buildPhases = (
 				C6DF6CC71D1B18B000259F4B /* Sources */,
 				C6DF6CC81D1B18B000259F4B /* Frameworks */,
@@ -394,9 +394,9 @@
 			);
 			dependencies = (
 			);
-			name = "PhoneNumberKit-tvOS";
+			name = "PhoneNumberToolbox-tvOS";
 			productName = "PhoneNumberKit-tvOS";
-			productReference = C6DF6CCC1D1B18B000259F4B /* PhoneNumberKit.framework */;
+			productReference = C6DF6CCC1D1B18B000259F4B /* PhoneNumberToolbox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -431,7 +431,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3424185E1BB6E5A000EE70E7 /* Build configuration list for PBXProject "PhoneNumberKit" */;
+			buildConfigurationList = 3424185E1BB6E5A000EE70E7 /* Build configuration list for PBXProject "PhoneNumberToolbox" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -444,11 +444,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				342418631BB6E5A000EE70E7 /* PhoneNumberKit */,
-				C6DF6C4A1D1B09CF00259F4B /* PhoneNumberKit-macOS */,
-				C6DF6C901D1B120400259F4B /* PhoneNumberKit-watchOS */,
-				C6DF6CCB1D1B18B000259F4B /* PhoneNumberKit-tvOS */,
-				3424186D1BB6E5A000EE70E7 /* PhoneNumberKitTests */,
+				342418631BB6E5A000EE70E7 /* PhoneNumberToolbox */,
+				C6DF6C4A1D1B09CF00259F4B /* PhoneNumberToolbox-macOS */,
+				C6DF6C901D1B120400259F4B /* PhoneNumberToolbox-watchOS */,
+				C6DF6CCB1D1B18B000259F4B /* PhoneNumberToolbox-tvOS */,
+				3424186D1BB6E5A000EE70E7 /* PhoneNumberToolboxTests */,
 			);
 		};
 /* End PBXProject section */
@@ -610,7 +610,7 @@
 /* Begin PBXTargetDependency section */
 		342418711BB6E5A000EE70E7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 342418631BB6E5A000EE70E7 /* PhoneNumberKit */;
+			target = 342418631BB6E5A000EE70E7 /* PhoneNumberToolbox */;
 			targetProxy = 342418701BB6E5A000EE70E7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -819,7 +819,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -842,7 +842,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 			};
@@ -863,7 +863,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -886,7 +886,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 4;
@@ -908,7 +908,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -930,7 +930,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.roymarmelstein.PhoneNumberKit.PhoneNumberKit;
-				PRODUCT_NAME = PhoneNumberKit;
+				PRODUCT_NAME = PhoneNumberToolbox;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -941,7 +941,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3424185E1BB6E5A000EE70E7 /* Build configuration list for PBXProject "PhoneNumberKit" */ = {
+		3424185E1BB6E5A000EE70E7 /* Build configuration list for PBXProject "PhoneNumberToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342418761BB6E5A000EE70E7 /* Debug */,
@@ -950,7 +950,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		342418781BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberKit" */ = {
+		342418781BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				342418791BB6E5A000EE70E7 /* Debug */,
@@ -959,7 +959,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3424187B1BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberKitTests" */ = {
+		3424187B1BB6E5A000EE70E7 /* Build configuration list for PBXNativeTarget "PhoneNumberToolboxTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3424187C1BB6E5A000EE70E7 /* Debug */,
@@ -968,7 +968,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6DF6C521D1B09CF00259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-macOS" */ = {
+		C6DF6C521D1B09CF00259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6DF6C501D1B09CF00259F4B /* Debug */,
@@ -977,7 +977,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6DF6C981D1B120400259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-watchOS" */ = {
+		C6DF6C981D1B120400259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-watchOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6DF6C961D1B120400259F4B /* Debug */,
@@ -986,7 +986,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C6DF6CD11D1B18B000259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberKit-tvOS" */ = {
+		C6DF6CD11D1B18B000259F4B /* Build configuration list for PBXNativeTarget "PhoneNumberToolbox-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C6DF6CD21D1B18B000259F4B /* Debug */,

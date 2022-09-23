@@ -7,10 +7,10 @@
 //
 
 #if canImport(ObjectiveC)
-@testable import PhoneNumberKit
+@testable import PhoneNumberToolbox
 import XCTest
 
-import PhoneNumberKit
+import PhoneNumberToolbox
 
 /// Testing partial formatter. Goal is to replicate formatting behaviour of Apple's dialer.
 class PartialFormatterTests: XCTestCase {
