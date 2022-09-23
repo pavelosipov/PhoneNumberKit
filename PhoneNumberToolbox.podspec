@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'UIKit' do |ui|
-    ui.dependency 'PhoneNumberKit/PhoneNumberToolboxCore'
+    ui.dependency 'PhoneNumberToolbox/PhoneNumberToolboxCore'
     ui.ios.deployment_target = '9.0'
     ui.source_files = 'PhoneNumberKit/UI/'
   end
